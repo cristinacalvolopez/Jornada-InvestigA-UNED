@@ -1,0 +1,29 @@
+# CÓDIGO PROMPT
+
+Actúa como un experto en análisis de datos y procesamiento de lenguaje natural.
+
+Te proporcionaré un texto extenso en lenguaje natural. Tu tarea consiste en realizar un análisis léxico siguiendo estos pasos de forma estricta:
+
+1.⁠ ⁠Normaliza el texto:
+   - Convierte todo a minúsculas.
+   - Elimina signos de puntuación, caracteres especiales, emojis y URLs.
+   - Elimina menciones (@usuario) y hashtags si aparecen.
+
+2.⁠ ⁠Tokeniza el texto en palabras individuales.
+
+3.⁠ ⁠Elimina stopwords en español (artículos, preposiciones, pronombres, conjunciones, etc.). Puedes usar un criterio estándar de NLP.
+
+4.⁠ ⁠(Opcional, si lo consideras adecuado) Aplica lematización para unificar variantes de palabras.
+
+5.⁠ ⁠Calcula la frecuencia absoluta de cada palabra restante.
+
+6.⁠ ⁠Devuelve el resultado en formato de tabla, ordenado de mayor a menor frecuencia, con dos columnas:
+   - palabra
+   - frecuencia
+
+7.⁠ ⁠Indica también:
+   - número total de palabras (tras limpieza)
+   - número de palabras únicas
+
+Texto a analizar:
+[PEGA AQUÍ EL TEXTO]
